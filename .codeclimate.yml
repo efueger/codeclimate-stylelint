@@ -17,4 +17,4 @@ plugins:
 exclude_paths:
 - .tmp_rules/**/*
 - node_modules/**/*
-
+- test/**/*
