@@ -1,14 +1,19 @@
----
-engines:
+version: "2"
+
+plugins:
   eslint:
-    enabled: true
+    enabled: false
     channel: eslint-4
     checks:
       import/no-unresolved:
         enabled: false
-ratings:
-  paths:
-  - "*.js"
+  stylelint:
+    enabled: true
+  structure:
+    enabled: false
+  duplication:
+    enabled: false
+
 exclude_paths:
 - .tmp_rules/**/*
 - node_modules/**/*
